@@ -127,7 +127,8 @@ body {
   border: 4px solid #e4ceab;
   background-color: #e4ceab;
   border-radius: 25px;
-  padding: 4px 150px;
+  padding: 4px 20px 4px 0;
+  width: 400px;
 }
 .soar-list li:hover {
   background: #e4ceabd7;
