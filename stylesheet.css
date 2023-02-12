@@ -23,7 +23,7 @@ body {
 }
 
 .content {
-   min-width: 900px;
+  min-width: 900px;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -130,21 +130,20 @@ th {
   color: black;
 }
 
-
- /* Footer */
- .footer {
+/* Footer */
+.footer {
   background-color: black;
   margin-top: auto;
 }
 
 .footer .footer-content {
-display: flex;
-align-items: baseline;
-justify-content: space-between;
-margin: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 20px;
 }
 
-button{
+button {
   width: 120px;
   padding: 10px;
   color: white;
@@ -152,11 +151,11 @@ button{
   border: 2px solid white;
   margin: 20px;
 }
-button i{
+button i {
   font-size: 15px;
   margin-right: 3px;
 }
-.submit{
+.submit {
   width: 100px;
   padding: 10px;
   color: black;
@@ -165,8 +164,7 @@ button i{
   margin: 20px;
 }
 
-
-.submit:hover{
+.submit:hover {
   color: white;
   background-color: black;
   border: 2px solid white;
