@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Changa", sans-serif;
+  color: azure;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(10, 53, 117, 1) 44%,
+    rgba(245, 245, 220, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav {
+  background-color: #000000a9;
+}
+
+.main-container {
+    min-width: 900px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav .navbar img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.nav .navbar li {
+  display: inline;
+  color: white;
+  margin: 0 20px;
+  border-bottom: 4px solid #e4ceab;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.nav .navbar li:hover {
+  border: 4px solid #e4ceab;
+  background-color: rgba(0, 0, 0, 0.53);
+}
+
+.nav .navbar a {
+  text-decoration: none;
+}
+
+/* End of nav bar */
+
+
+.Alfatiha-main-container{
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-between;
+
+}
+
+.Alfatiha-main-container .Alfatiha-col1{
+    display: flex;
+    flex-direction: column;
+}
+
+.Alfatiha-main-container .Alfatiha-col1 div{
+    margin: 20px;
+}
+
+.Alfatiha-main-container .Alfatiha-col1 .Alfatiha-paragraph h1{
+    color: black;
+    background-color: #e4ceab;
+    padding: 3px 20px 3px 200px;
+    border-radius: 40px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #e4ceab;
+  }
+
+.Alfatiha-main-container .Alfatiha-col1 .Alfatiha-download a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 3px 20px 3px 200px;
+}
+.Alfatiha-main-container .Alfatiha-col1 .Alfatiha-download a span{
+    color: black;
+    font-size: 30px;
+}
+
+.Alfatiha-main-container .Alfatiha-col1 .Alfatiha-download a span:hover{
+    color: white;
+}
+.Alfatiha-main-container .Alfatiha-col1 .Alfatiha-download a i{
+    border-radius: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.728);
+    margin-left: 20px;
+    font-size: 20px;
+}
+.Alfatiha-main-container .Alfatiha-col1 .Alfatiha-download a i:hover{
+    color: black;
+    background-color: white;
+}
+.Alfatiha-main-container .Alfatiha-col1 .Alfatiha-download{
+    background-color: #e4ceab;
+    border-radius: 40px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: black;
+    margin-top: auto;
+}
+
+.footer .footer-content {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+button{
+  width: 120px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  margin: 20px;
+}
+button i{
+  font-size: 15px;
+  margin-right: 3px;
+}
+.submit{
+  width: 100px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+
+.submit:hover{
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  cursor: pointer;
+}
+

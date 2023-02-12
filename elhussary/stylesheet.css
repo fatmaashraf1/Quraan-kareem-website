@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Changa", sans-serif;
+    color: azure;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(10, 53, 117, 1) 44%,
+      rgba(245, 245, 220, 1) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .nav {
+    background-color: #000000a9;
+  }
+  
+  .main-container {
+    min-width: 900px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .nav .navbar img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+  
+  .nav .navbar li {
+    display: inline;
+    color: white;
+    margin: 0 20px;
+    border-bottom: 4px solid #e4ceab;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  .nav .navbar li:hover {
+    border: 4px solid #e4ceab;
+    background-color: rgba(0, 0, 0, 0.53);
+  }
+  
+  .nav .navbar a {
+    text-decoration: none;
+  }
+  
+  /* End of nav bar */
+  .name{
+    background-color: rgba(5, 39, 88, 0.489);
+    margin-top: 30px;
+    display: flex;
+    border-radius: 30px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .name .english-name,
+  .arabic-name{
+    font-size: 40px;
+    padding: 20px;
+     
+  }
+  
+  .main-container-elhussary {
+    display: flex;
+    direction: rtl;
+    margin: 20px;
+    align-items: center;
+  }
+  .main-container-elhussary .elhussary-img img {
+    width: 250px;
+    height: 400px;
+    border: 5px solid black;
+    transition: 0.3s;
+  }
+  .main-container-elhussary .elhussary-img img:hover {
+    width: 300px;
+    height: 500px;
+  }
+  .main-container-elhussary .elhussary-story {
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #e4ceabad;
+  }
+  .main-container-elhussary .elhussary-story p {
+    padding: 20px;
+    font-size: 22px;
+    color: black;
+  }
+  
+  /* End of main-container-elhussary */
+  
+  /* Rest div */
+  .rest-container-elhussary {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .soar-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+  .soar-list ul {
+    list-style-type: none;
+  }
+  
+  .soar-list li {
+    margin: 20px;
+    border: 4px solid #e4ceab;
+    background-color: #e4ceab;
+    border-radius: 25px;
+    padding: 4px 150px;
+  }
+  .soar-list li:hover {
+    background: #e4ceabd7;
+    border-color: black;
+  }
+  .soar-list a:hover {
+    color: white;
+  }
+  .soar-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+  }
+  
+  /* End of table */
+  
+  .elhussary-iframe {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .iframe-paragraph p {
+    font-size: 30px;
+  }
+  
+  .elhussary-iframe .iframe-paragraph {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+  }
+  .iframe-paragraph p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .iframe-paragraph ul{
+    padding-right: 50px;
+    background-color: #e4ceab56;
+    margin: 30px 0 ;
+    border-radius: 20px;
+  }
+  .iframe-paragraph li{
+    color: black;
+    font-size: 25px;
+  }
+  .elhussary-iframe iframe {
+    border: 10px solid #e4ceab94;
+    border-radius: 20px;
+  }
+  
+  .iframe-paragraph .honors{
+      text-align: center;
+      font-size: 25px;
+      padding: 10px;
+      color: black;
+      background-color: #e4ceab;
+      border-radius: 5px;
+      margin: 10px 0;
+  }
+  
+  .iframe-paragraph li{
+      font-size: 20px;
+      margin: 30px;
+  }
+  
+  .iframe-paragraph ol li span{
+      float: right;
+  }
+  
+  /* Footer */
+  .footer {
+      background-color: black;
+      margin-top: auto;
+  }
+  
+  .footer .footer-content {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  button{
+    width: 120px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    margin: 20px;
+  }
+  button i{
+    font-size: 15px;
+    margin-right: 3px;
+  }
+  .submit{
+    width: 100px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px;
+  }
+
+
+  .submit:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+  }
